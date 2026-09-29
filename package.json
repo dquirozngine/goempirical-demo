@@ -1,0 +1,22 @@
+{
+  "name": "ticket-triage-agent",
+  "version": "1.0.0",
+  "description": "Ticket triage agent for the live coding challenge",
+  "scripts": {
+    "start": "tsx agent.ts",
+    "test": "node --import tsx --test \"tests/**/*.test.ts\"",
+    "evals": "tsx evals.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
+    "dotenv": "^18.0.4",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}

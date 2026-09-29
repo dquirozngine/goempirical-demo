@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# dependencies / build
+node_modules/
+dist/
+
+# editor and session-local
+.claude/settings.local.json
+.vscode/
+.idea/
+.DS_Store
+*.log

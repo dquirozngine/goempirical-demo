@@ -1,0 +1,6 @@
+# Files Claude Code should not read in this repo.
+.env
+node_modules/
+dist/
+.claude/settings.local.json
+*.log
